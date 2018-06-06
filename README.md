@@ -1,15 +1,30 @@
-# pgp
-A simple and easy to use client-side PGP key generator
+# PGP Key Generator
 
-**URL:** http://heiswayi.github.io/pgp/
+A simple and easy to use PGP system
+
+**URL:** https://thechiefmeat.com/pgp/ , https://username1565.github.io/pgp/
+
+**Offline Version:** https://github.com/TheChiefMeat/pgp/releases/latest
 
 ## About this program
 
-Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. It was created by Phil Zimmermann in 1991. PGP and similar software follow the OpenPGP standard (RFC 4880) for encrypting and decrypting data. _Source: [Wikipedia](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)_
+Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and 
+authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, 
+directories, and whole disk partitions and to increase the security of e-mail communications. It was created by Phil 
+Zimmermann in 1991. PGP and similar software follow the OpenPGP standard (RFC 4880) for encrypting and decrypting data. 
+_Source: [Wikipedia](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)_
 
-This website only provides a simple and easy to use tool for people to generate PGP keys with. Today, the common methods for generating keys still involve going to a command prompt of a Linux/Unix machine and using the GPG utility, or installing a PGP compatible application on your desktop. I wanted to provide an easier way to generate keys. None of this would be possible without the awesome Open Source software I'm utilizing. I'm using [KeyBase's](https://keybase.io/) awesome JavaScript implementation of PGP ([kbpgp](https://github.com/keybase/kbpgp)). For file saving capabilities I am utilizing [Eli Grey's](https://github.com/eligrey) wonderful [FileSaver.js](https://github.com/eligrey/FileSaver.js/) interface.
+This website only provides a simple and easy to use tool for people to generate PGP keys with. Today, the common 
+methods for generating keys still involve going to a command prompt of a Linux/Unix machine and using the GPG utility, 
+or installing a PGP compatible application on your desktop. I wanted to provide an easier way to generate keys. None 
+of this would be possible without the awesome Open Source software I'm utilizing. I'm 
+using [KeyBase's](https://keybase.io/) awesome JavaScript implementation of 
+PGP ([kbpgp](https://github.com/keybase/kbpgp)). For file saving capabilities I am 
+utilizing [Eli Grey's](https://github.com/eligrey) wonderful [FileSaver.js](https://github.com/eligrey/FileSaver.js/) 
+interface.
 
-If you have any inquiry, just [create an issue here](https://github.com/heiswayi/pgp/issues/new).
+> This project is a fork of [PGP key generator by Heiswayi](https://github.com/heiswayi/pgp/). Ramuta added ability to 
+encrypt/decrypt messages. I added sign only mode, sign+encrypt mode as well as support for 8192 RSA keys.
 
 ## Frequently Asked Questions
 
@@ -27,7 +42,7 @@ If you have any inquiry, just [create an issue here](https://github.com/heiswayi
 
 **I'm concerned about my privacy. Do you keep or gather logs of any sort?**
 
-> No, I don't keep or log any information you submitted through the generator form. The only logging that occurs when you visit this website is performed by Google Analytics, which helps me keep track of the number of people visiting the site monthly.
+> No, I don't keep or log any information you submitted through the generator form.
 
 **Why does my web browser or computer slow down when I'm generating keys?**
 
